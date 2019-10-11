@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Page</title>
+</head>
+<body>
+
+<a href="index.html"title="go to Home"><button type="button">
+Home</button></a>
+<a href="index2.html"title="SignUp">
+	<button type="button" >SignUp</button></a>
+<br><br>
+<form>
+<label>UserName</label>
+<input type="text" name="username"required>
+<label>Password</label>
+<input type="password" name="pass"min="5"required>
+<input type="submit"value="SignIn"></form>
+
+
+
+<h2>SignUp</h2>
+
+<form>
+	Username<input type="text" name="username"required><br>
+	First Name<input type="text" name="firstname"required><br>
+	Last Name<input type="text" name="lastname"required><br>
+	Email&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<input type="email" name="email"required><br>
+	Password:&nbsp<input type="password" name="pass"min="5"required><br>
+	Birthday&nbsp;&nbsp;&nbsp;<input type="date" name="birthday"required><br>
+	Gender:<input type="radio" name="gender"value="Male"required>Male
+			<input type="radio" name="gender"value="Female">Female
+	<input type="radio" name="gender"value="Other">Other
+	<br>
+	Pets<br>
+	<input type="checkbox" name="pet1"value="Cats">Cats<br>
+		<input type="checkbox" name="pet2"value="Dogs">Dogs<br>
+			<input type="checkbox" name="pet3"value="Hens">hens<br>
+
+	Cars:<br>
+	<select name="Cars">
+		<option value="volvo">Volvo</option>
+		<option value="saab">Saab</option>
+		<option value="mercedes">Mercedes</option>
+		<option value="audi">Audi</option>
+	</select><br>
+	<input type="submit"value="Register">
+	<input type="reset" name="reset"><br>
+
+</form>
+</body>
+</html>
